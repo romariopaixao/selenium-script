@@ -1,0 +1,15 @@
+# Ambiente virtual
+venv/
+
+# Arquivos de configuração do VSCode
+.vscode/
+
+# Arquivos de log
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de variáveis de ambiente
+.env
