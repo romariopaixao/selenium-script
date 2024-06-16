@@ -9,31 +9,35 @@ Este projeto usa Selenium para automatizar a criação de Ordens de Serviço (OS
    python -m venv venv
 
 2. Ative o ambiente virtual:
-    No Windows:
-        sh
-        Copiar código
-        .\venv\Scripts\Activate.ps1
-    No macOS/Linux:
-        sh
-        Copiar código
-        source venv/bin/activate
+- Windows:
+  ```sh
+  Copiar código
+  .\venv\Scripts\Activate.ps1
+- No macOS/Linux:
+  ```sh
+  Copiar código
+  source venv/bin/activate```
 
 3. Instale as dependências
-pip install selenium python-dotenv
+   ```sh
+   pip install selenium python-dotenv
 
 4. Configure suas variáveis de ambiente no arquivo .env:
-SYSTEM_URL=http://example.com
-SYSTEM_USER=seu-usuario
-SYSTEM_FILIAL=sua-filial
-SYSTEM_PASSWORD=sua-senha
+   ```python
+   SYSTEM_URL=http://example.com
+   SYSTEM_USER=seu-usuario
+   SYSTEM_FILIAL=sua-filial
+   SYSTEM_PASSWORD=sua-senha
 
 5. Execute o script:
-python app.py
+   ```sh
+   python app.py
 
-Contribuição
+## Contribuição
 Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-Uso
+## Uso
 Coloque sua planilha de dados no mesmo diretório do script, por exemplo, dados.xlsx.
 Execute o script
+```sh
     python app.py
